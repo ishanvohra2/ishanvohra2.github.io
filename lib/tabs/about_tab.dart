@@ -30,7 +30,7 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'Founder, CEO - The Indie Corp.\n Android and Flutter Dev.\n Smart India Hackathon 2020 Winner\n Microsoft Learn Student Ambassador \n IncubateIND Fellow \n Love to travel',
+                'Founder, CEO - The Indie Corp.\n Android and Flutter Dev.\n Smart India Hackathon 2020 Winner\n Microsoft Learn Student Ambassador\n Game Development Mentor at International Organization of Software Developers \n IncubateIND Fellow \n Love to travel',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
