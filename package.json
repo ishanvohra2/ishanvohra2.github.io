@@ -1,0 +1,28 @@
+{
+  "name": "ishan-vohra-portfolio",
+  "version": "1.0.0",
+  "description": "Ishan Vohra's Portfolio - Software Engineer & Mobile Developer",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "prettier --plugin-search-dir . --check . && eslint .",
+    "format": "prettier --plugin-search-dir . --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.0",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-svelte": "^2.30.0",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.10.1",
+    "svelte": "^4.2.7",
+    "vite": "^5.0.3"
+  },
+  "dependencies": {
+    "lucide-svelte": "^0.294.0"
+  }
+}
