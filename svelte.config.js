@@ -9,10 +9,8 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 			strict: true
-		}),
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/ishanvohra2.github.io' : ''
-		}
+		})
+		// Removed the paths.base configuration to fix GitHub Pages deployment
 	}
 };
 
